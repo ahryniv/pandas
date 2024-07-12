@@ -15,7 +15,8 @@ requires = [
     "numpy==1.19.2; python_version=='3.8' and platform_machine=='aarch64'",
     # Darwin Arm64
     "numpy>=1.20.0; python_version=='3.8' and platform_machine=='arm64' and platform_system=='Darwin'",
-    "numpy>=1.20.0; python_version=='3.9' and platform_machine=='arm64' and platform_system=='Darwin'"
+    "numpy>=1.20.0; python_version=='3.9' and platform_machine=='arm64' and platform_system=='Darwin'",
+    "numpy<2; python_version>='3.9'",
 ]
 # uncomment to enable pep517 after versioneer problem is fixed.
 # https://github.com/python-versioneer/python-versioneer/issues/193
